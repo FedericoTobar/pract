@@ -1,0 +1,23 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageParcial.master.cs" Inherits="MasterPageParcial" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:HyperLink runat="server" NavigateUrl="~/FinalDic21.aspx">Formulario:</asp:HyperLink>
+        <asp:HyperLink runat="server" NavigateUrl="~/resultadoASP.aspx">Sesion:</asp:HyperLink>
+        <asp:ContentPlaceHolder id="caja" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
